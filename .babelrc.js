@@ -12,7 +12,7 @@ if (env === 'commonjs' || env === 'es') {
       'source/TestUtils.js',
     ],
     plugins: [
-      'transform-runtime',
+      // 'transform-runtime',
       ['flow-react-proptypes', {deadCode: true, useESModules: true}],
       ['transform-react-remove-prop-types', {mode: 'wrap'}],
     ],

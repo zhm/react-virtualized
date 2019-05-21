@@ -5,9 +5,9 @@
   "user": "bvaughn",
   "version": "9.21.1",
   "homepage": "https://github.com/bvaughn/react-virtualized",
-  "main": "dist/commonjs/index.js",
-  "module": "dist/es/index.js",
-  "jsnext:main": "dist/es/index.js",
+  "main": "out/commonjs/index.js",
+  "module": "out/es/index.js",
+  "jsnext:main": "out/es/index.js",
   "license": "MIT",
   "scripts": {
     "build:types": "flow-copy-source --ignore \"**/*.{jest,e2e,ssr,example}.js\" source/WindowScroller dist/es/WindowScroller && flow-copy-source --ignore \"**/*.{jest,e2e,ssr,example}.js\" source/AutoSizer dist/es/AutoSizer",
